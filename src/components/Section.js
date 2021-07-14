@@ -31,7 +31,7 @@ function Section({ title, description, leftBtnText, rightBtnText, backgroundImg 
           </ButtonGroup>
         </Fade>
 
-        <DownArrow src="%PUBLIC_URL%/images/down-arrow.svg" />
+        <DownArrow src={`${process.env.PUBLIC_URL}/images/down-arrow.svg`} />
       </Buttons>
 
     </Wrap>
@@ -46,12 +46,12 @@ const Wrap = styled.div`
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url('%PUBLIC_URL%/images/model-s.jpg');
+    background-image: ${`url('${process.env.PUBLIC_URL}/images/model-s.jpg')`};
     display: flex;
     flex-direction: column;
     justify-content: space-between; // vertical
     align-items: center; // horizontal
-    background-image: ${props => `url('%PUBLIC_URL%/images/${props.bgImage}')`};
+    background-image: ${props => `url('${process.env.PUBLIC_URL}/images/${props.bgImage}')`};
 `;
 
 const ItemText = styled.div`

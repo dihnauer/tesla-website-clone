@@ -14,7 +14,7 @@ function Header() {
   return (
     <Container>
       <a href="">
-        <img src="%PUBLIC_URL%/images/logo.svg" alt="" />
+        <img src={`${process.env.PUBLIC_URL}/images/logo.svg`} alt="" />
       </a>
 
       <Menu>
