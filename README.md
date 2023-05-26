@@ -1,5 +1,1 @@
-This project was bootstrapped with ReactJS and Redux template.
-
-This project was developed to practice my knowledge of ReactJS. 
-
-This is a clone of Tesla's website. :)
+Este projeto foi desenvolvido utilizando React.js template com Redux e foi realizado como prática de conhecimentos em React.js.
